@@ -1,0 +1,750 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SAMUN 2026 | Modelo de Naciones Unidas</title>
+  
+  <link rel="stylesheet" href="style.css">
+  
+  <!-- Fuentes elegantes e institucionales -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  
+  <!-- Iconos -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+  <!-- NAVEGACIÓN PRINCIPAL -->
+  <header class="header">
+    <div class="nav-container container-nav">
+      <div class="logo-wrapper">
+        <img src="logo SAMUN.jpeg" alt="Logo SAMUN" class="nav-logo-img">
+        <div class="logo-text">
+          <span class="logo-main">SA</span><span class="logo-sub">MUN</span>
+          <span class="logo-year">2026</span>
+        </div>
+      </div>
+      
+      <input type="checkbox" id="nav-toggle" class="nav-toggle">
+      <label for="nav-toggle" class="nav-toggle-label">
+        <span></span>
+      </label>
+      <nav class="nav-menu">
+        <ul>
+          <li><a href="#hero">Inicio</a></li>
+          <li><a href="#about">Sobre el evento</a></li>
+          <li><a href="#secretariado">Secretariado</a></li>
+          <li><a href="#comites">Comités</a></li>
+          <li><a href="#cronograma">Cronograma</a></li>
+          <li><a href="#recursos">Recursos</a></li>
+          <li><a href="#contacto">Contacto</a></li>
+          <li><a href="#inscripciones" class="btn-nav">Inscripciones</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <!-- SECCIÓN HERO -->
+  <section id="hero" class="hero-section">
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+      <p class="hero-tagline">COLEGIO SAN AGUSTÍN PRESENTA</p>
+      <h1 class="hero-title">SAMUN 2026</h1>
+      <h2 class="hero-subtitle">Líderes en el cambio global</h2>
+      <p class="hero-dates">
+        <i class="fa-regular fa-calendar-days"></i> 17, 18 y 19 de Septiembre de 2026 • Cochabamba, Bolivia
+      </p>
+      <div class="hero-actions">
+        <a href="#inscripciones" class="btn btn-primary btn-large">Inscribirse ahora</a>
+        <a href="#about" class="btn btn-secondary btn-large">Saber más</a>
+      </div>
+    </div>
+  </section>
+  <!-- SOBRE EL MODELO -->
+  <section id="about" class="about-section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-subtitle">BIENVENIDA</span>
+        <h2 class="section-title">Sobre el Modelo</h2>
+        <div class="title-divider"></div>
+      </div>
+      <div class="about-grid">
+        <div class="about-col">
+          <h3>Nuestra Visión</h3>
+          <p>El Modelo de Naciones Unidas del Colegio San Agustín (SAMUN 2026) se consolida como un espacio de debate académico de excelencia. Buscamos inspirar a las nuevas generaciones a analizar, debatir y plantear soluciones innovadoras ante los desafíos geopolíticos, sociales y humanitarios más complejos de nuestra era.</p>
+        </div>
+        <div class="about-col">
+          <h3>Un Espacio de Liderazgo</h3>
+          <p>Durante este modelo, los delegados desarrollarán habilidades críticas de oratoria, negociación pacífica, redacción diplomática y pensamiento estratégico. SAMUN es el escenario ideal para formar a los líderes del mañana bajo los valores de tolerancia, empatía, respeto y rigurosidad intelectual.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- SECCIÓN: SECRETARIADO -->
+  <section id="secretariado" class="secretariat-section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-subtitle">NUESTRO EQUIPO</span>
+        <h2 class="section-title">Secretariado Organizador</h2>
+        <div class="title-divider"></div>
+      </div>
+      <div class="secretariat-group-photo">
+        <img src="Foto Grupal.JPG" alt="Secretariado General SAMUN 2026" class="group-photo-img">
+      </div>
+      <div class="carousel-section-header">
+        <h3 class="carousel-section-title">Conoce a nuestros secretarios</h3>
+      </div>
+      <div class="carousel-wrapper">
+        <button class="carousel-arrow left-arrow" id="prevBtn"><i class="fa-solid fa-chevron-left"></i></button>
+        
+        <div class="carousel-container" id="carouselTrack">
+          <div class="member-carousel-card">
+            <div class="member-photo-frame">
+              <img src="Foto Leo.JPG" alt="Leonardo de la Zerda Golac" class="member-img">
+            </div>
+            <h3>Leonardo de la Zerda Golac</h3>
+            <p class="member-role">Secretario General</p>
+          </div>
+          <div class="member-carousel-card">
+            <div class="member-photo-frame">
+              <img src="Foto Montse.JPG" alt="Montserrat Nicol Careaga Torrico" class="member-img">
+            </div>
+            <h3>Montserrat Nicol Careaga Torrico</h3>
+            <p class="member-role">Sub Secretaria General</p>
+          </div>
+          <div class="member-carousel-card">
+            <div class="member-photo-frame">
+              <img src="Foto Naty.JPG" alt="Natalia Sofía Fernández Alcázar" class="member-img">
+            </div>
+            <h3>Natalia Sofía Fernández Alcázar</h3>
+            <p class="member-role">Secretaria Académica</p>
+          </div>
+          <div class="member-carousel-card">
+            <div class="member-photo-frame">
+              <img src="Foto ValeC.JPG" alt="Valentina Alejandra Castro Soliz" class="member-img">
+            </div>
+            <h3>Valentina Alejandra Castro Soliz</h3>
+            <p class="member-role">Secretaria de Logística</p>
+          </div>
+          <div class="member-carousel-card">
+            <div class="member-photo-frame">
+              <img src="Foto ValeO.JPG" alt="Valentina Isabel Ortiz Moya" class="member-img">
+            </div>
+            <h3>Valentina Isabel Ortiz Moya</h3>
+            <p class="member-role">Secretaria Económica</p>
+          </div>
+          <div class="member-carousel-card">
+            <div class="member-photo-frame">
+              <img src="Foto Isa.jpeg" alt="Antonieta Isabela Miranda Ordoñez" class="member-img">
+            </div>
+            <h3>Antonieta Isabela Miranda Ordoñez</h3>
+            <p class="member-role">Secretaria de Comunicación y Marketing</p>
+          </div>
+        </div>
+        <button class="carousel-arrow right-arrow" id="nextBtn"><i class="fa-solid fa-chevron-right"></i></button>
+      </div>
+    </div>
+  </section>
+  <!-- SECCIÓN: COMITÉS -->
+  <section id="comites" class="committees-section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-subtitle">FOROS DE DEBATE</span>
+        <h2 class="section-title">Nuestros Comités</h2>
+        <div class="title-divider"></div>
+        <p class="flip-instruction-text"><i class="fa-solid fa-arrows-rotate"></i> Click para ver los tópicos</p>
+      </div>
+      <!-- CATEGORÍA SECUNDARIA -->
+      <h3 class="category-title"><i class="fa-solid fa-graduation-cap"></i> 3ro, 4to, 5to y 6to de Secundaria</h3>
+      <div class="committees-grid">
+        <div class="flip-card">
+          <div class="flip-card-inner">
+            <div class="flip-card-front">
+              <div class="committee-badge badge-double">Foro Doble</div>
+              <h3 class="committee-abbreviation">UNSC</h3>
+              <h4 class="committee-name">Consejo de Seguridad de las Naciones Unidas</h4>
+              <p class="committee-meta">Simulación de máxima seguridad y diplomacia internacional en tiempo real.</p>
+            </div>
+            <div class="flip-card-back">
+              <h3>Tópicos Oficiales</h3>
+              <div class="divider-gold"></div>
+              <ul>
+                <li><strong>Tópico A:</strong> AGENDA ABIERTA</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        
+        <div class="flip-card">
+          <div class="flip-card-inner">
+            <div class="flip-card-front">
+              <div class="committee-badge badge-un">Histórico</div>
+              <h3 class="committee-abbreviation">CSH</h3>
+              <h4 class="committee-name">Consejo de Seguridad Histórico</h4>
+              <p class="committee-meta">Resolución de crisis críticas del pasado que alteraron la historia de la humanidad.</p>
+            </div>
+            <div class="flip-card-back">
+              <h3>Tópicos Oficiales</h3>
+              <div class="divider-gold"></div>
+              <ul>
+                <li><strong>Tópico A:</strong> La Guerra de Bosnia y Herzegovina: protección de la población civil, mantenimiento de la paz y respuesta internacional ante la desintegración de Yugoslavia.</li>
+                <li><strong>Tópico B:</strong> La crisis de Kosovo: autodeterminación, soberanía estatal e intervención internacional frente al deterioro de la seguridad regional.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="flip-card">
+          <div class="flip-card-inner">
+            <div class="flip-card-front">
+              <div class="committee-badge badge-un">Especial</div>
+              <h3 class="committee-abbreviation">MSC</h3>
+              <h4 class="committee-name">Comité de Estado Mayor</h4>
+              <p class="committee-meta">Evaluación de estrategias de defense y misiones armadas complejas.</p>
+            </div>
+            <div class="flip-card-back">
+              <h3>Tópicos Oficiales</h3>
+              <div class="divider-gold"></div>
+              <ul>
+                <li><strong>Tópico A:</strong> Planeamiento operacional de una misión multinacional de estabilización y protección de corredores humanitarios en Sudán tras la adopción de un alto al fuego.</li>
+                <li><strong>Tópico B:</strong> Desarrollo de doctrinas operacionales para la integración de sistemas de armas autónomas e inteligencia artificial en operaciones militares multinacionales.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="flip-card">
+          <div class="flip-card-inner">
+            <div class="flip-card-front">
+              <div class="committee-badge badge-un">Legal</div>
+              <h3 class="committee-abbreviation">CIJ</h3>
+              <h4 class="committee-name">Corte Internacional de Justicia</h4>
+              <p class="committee-meta">Resolución judicial de litigios entre Estados de acuerdo con el derecho internacional.</p>
+            </div>
+            <div class="flip-card-back">
+              <h3>Tópicos Oficiales</h3>
+              <div class="divider-gold"></div>
+              <ul>
+                <li><strong>Tópico A:</strong> Controversia territorial y marítima (Nicaragua v. Colombia) y Delimitación marítima (Perú v. Chile): Criterios de jurisprudencia internacional y principios de equidad en la demarcación de fronteras estatales.</li>
+                <li><strong>Tópico B:</strong> Aplicación de la Convención para la Prevención y la Sanción del Delito de Genocidio en la Franja de Gaza (Sudáfrica v. Israel): Determinación de medidas provisionales y el alcance de la jurisdicción del Tribunal.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="flip-card">
+          <div class="flip-card-inner">
+            <div class="flip-card-front">
+              <div class="committee-badge badge-un">UN</div>
+              <h3 class="committee-abbreviation">DISEC</h3>
+              <h4 class="committee-name">Primera Comisión: Desarme y Seguridad Internacional</h4>
+              <p class="committee-meta">Búsqueda de la estabilidad global a través del control de armas y desarme.</p>
+            </div>
+            <div class="flip-card-back">
+              <h3>Tópicos Oficiales</h3>
+              <div class="divider-gold"></div>
+              <ul>
+                <li><strong>Tópico A:</strong> Medidas urgentes para la contención de la escalada bélica y la proliferación de armamento convencional y no convencional en el Gran Oriente Medio.</li>
+                <li><strong>Tópico B:</strong> Marco normativo y determinaciones del Derecho Internacional Humanitario (DIH) respecto al desplaje operativo de sistemas de armas autónomas letales (LAWS) y robots militares.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="flip-card">
+          <div class="flip-card-inner">
+            <div class="flip-card-front">
+              <div class="committee-badge badge-un">Especial</div>
+              <h3 class="committee-abbreviation">PBC</h3>
+              <h4 class="committee-name">Comisión de Consolidación de la Paz</h4>
+              <p class="committee-meta">Prevención y reconstrucción de sociedades devastadas por conflictos.</p>
+            </div>
+            <div class="flip-card-back">
+              <h3>Tópicos Oficiales</h3>
+              <div class="divider-gold"></div>
+              <ul>
+                <li><strong>Tópico A:</strong> Arquitectura de consolidación de la paz en la transición posguerra: Fortalecimiento de la resiliencia institucional civil y estrategias para la transición hacia la autonomía económica.</li>
+                <li><strong>Tópico B:</strong> Mecanismos de estabilización nacional y control territorial frente a la insurgencia de agrupaciones armadas irregulares y el crimen organizado transnacional.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="flip-card">
+          <div class="flip-card-inner">
+            <div class="flip-card-front">
+              <div class="committee-badge badge-english">English Forum</div>
+              <h3 class="committee-abbreviation">HRC</h3>
+              <h4 class="committee-name">Human Rights Council</h4>
+              <p class="committee-meta">High-level debate on the protection and advancement of human rights worldwide.</p>
+            </div>
+            <div class="flip-card-back">
+              <h3>Official Topics</h3>
+              <div class="divider-gold"></div>
+              <ul>
+                <li><strong>Tópico A:</strong> International oversight and implementation strategies of the Durban Declaration and Programme of Action for the eradication of systemic racism and institutional xenophobia.</li>
+                <li><strong>Tópico B:</strong> Safeguarding fundamental freedoms in cyberspace: Multidimensional responses to the impact of generative Artificial Intelligence and countersurveillance.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="flip-card">
+          <div class="flip-card-inner">
+            <div class="flip-card-front">
+              <div class="committee-badge badge-double">Foro Doble</div>
+              <h3 class="committee-abbreviation">CSW</h3>
+              <h4 class="committee-name">Comisión de la Condición Jurídica y Social de la Mujer</h4>
+              <p class="committee-meta">Promoción de la igualdad de género y el empoderamiento de las mujeres.</p>
+            </div>
+            <div class="flip-card-back">
+              <h3>Tópicos Oficiales</h3>
+              <div class="divider-gold"></div>
+              <ul>
+                <li><strong>Tópico A:</strong> Cooperación internacional para la garantía universal del acceso a la salud sexual y los derechos reproductivos frente a las barreras socioculturales e institucionales de género.</li>
+                <li><strong>Tópico B:</strong> Desafíos a la transversalización de la perspectiva de género: Impacto del auge de las corrientes ideológicas ultraconservadoras en el ejercicio de los derechos políticos de las mujeres.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="flip-card">
+          <div class="flip-card-inner">
+            <div class="flip-card-front">
+              <div class="committee-badge badge-un">Social</div>
+              <h3 class="committee-abbreviation">ECOSOC</h3>
+              <h4 class="committee-name">Consejo Económico y Social</h4>
+              <p class="committee-meta">Coordinación de las labores económicas, sociales y ambientales internacionales.</p>
+            </div>
+            <div class="flip-card-back">
+              <h3>Tópicos Oficiales</h3>
+              <div class="divider-gold"></div>
+              <ul>
+                <li><strong>Tópico A:</strong> Regulación de los mercados digitales transfronterizos: Establecimiento de estándares éticos frente a los precios personalizados algorítmicos mediante Inteligencia Artificial.</li>
+                <li><strong>Tópico B:</strong> Plan de reactivación y resiliencia macroeconómica en el Cáucaso Sur: Cooperación regional para el desarrollo en el contexto post-conflicto entre Armenia y Azerbaiyán.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="flip-card">
+          <div class="flip-card-inner">
+            <div class="flip-card-front">
+              <div class="committee-badge badge-un">Tecnología</div>
+              <h3 class="committee-abbreviation">COPUOS</h3>
+              <h4 class="committee-name">Comité sobre la Utilización del Espacio con Fines Pacíficos</h4>
+              <p class="committee-meta">Regulación y desarrollo de la exploración espacial pacífica e internacional.</p>
+            </div>
+            <div class="flip-card-back">
+              <h3>Tópicos Oficiales</h3>
+              <div class="divider-gold"></div>
+              <ul>
+                <li><strong>Tópico A:</strong> La militarización del espacio ultraterrestre: fortalecimiento del régimen internacional para prevenir el desarrollo de capacidades antisatélite, garantizar la seguridad de la infraestructura espacial y preservar el uso pacífico del espacio exterior.</li>
+                <li><strong>Tópico B:</strong> La explotación de los recursos espaciales: establecimiento de un marco jurídico internacional para la utilización sostenible de la Luna y otros cuerpos celestes, garantizando la cooperación internacional, la equidad en el acceso y la resolución pacífica de controversias.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="flip-card">
+          <div class="flip-card-inner">
+            <div class="flip-card-front">
+              <div class="committee-badge badge-regional">Cumbre</div>
+              <h3 class="committee-abbreviation">LEA - UE</h3>
+              <h4 class="committee-name">Cumbre Liga de los Estados Árabes – Unión Europea</h4>
+              <p class="committee-meta">Diálogo estratégico interregional de alta cooperación y política exterior.</p>
+            </div>
+            <div class="flip-card-back">
+              <h3>Tópicos Oficiales</h3>
+              <div class="divider-gold"></div>
+              <ul>
+                <li><strong>Tópico A:</strong> Cooperación interregional en materia de contraterrorismo: Mecanismos de inteligencia conjunta y seguridad fronteriza frente a la amenaza de ISIS y Al-Qaeda.</li>
+                <li><strong>Tópico B:</strong> Coordinación de la asistencia humanitaria para la reconstrucción post-conflicto en Siria y la gestión diplomática de los flujos de refugiados y desplazados internos.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="flip-card">
+          <div class="flip-card-inner">
+            <div class="flip-card-front">
+              <div class="committee-badge badge-un">Nacional</div>
+              <h3 class="committee-abbreviation">FNH</h3>
+              <h4 class="committee-name">Foro Nacional Histórico</h4>
+              <p class="committee-meta">Debate de acontecimientos trascendentales de la historia política de nuestro país.</p>
+            </div>
+            <div class="flip-card-back">
+              <h3>Tópicos Oficiales</h3>
+              <div class="divider-gold"></div>
+              <ul>
+                <li><strong>Tópico A:</strong> La insurgencia del Ejército de Liberación Nacional en Bolivia: fortalecimiento de la estrategia nacional para la preservación de la seguridad interna, la soberanía del Estado y la protección de la población civil.</li>
+                <li><strong>Tópico B:</strong> La estabilidad institucional del Estado boliviano frente a la insurgencia armada: coordinación entre el poder político, las Fuerzas Armadas y los actores sociales para la preservación del orden constitucional.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- CATEGORÍA PRIMARIA -->
+      <h3 class="category-title category-primary-title"><i class="fa-solid fa-children"></i> 6to de Primaria, 1ro y 2do de Secundaria</h3>
+      <div class="committees-grid">
+        <div class="flip-card">
+          <div class="flip-card-inner">
+            <div class="flip-card-front">
+              <div class="committee-badge badge-primaria">Primaria</div>
+              <h3 class="committee-abbreviation">SOCHUM</h3>
+              <h4 class="committee-name">Tercera Comisión: Asuntos Sociales, Humanitarios y Culturales</h4>
+              <p class="committee-meta">Análisis sobre derechos humanos, problemáticas infantiles y culturales.</p>
+            </div>
+            <div class="flip-card-back">
+              <h3>Tópicos Oficiales</h3>
+              <div class="divider-gold"></div>
+              <ul>
+                <li><strong>Tópico A:</strong> Mitigación de las crisis de seguridad alimentaria estructural en zonas de conflicto: Optimización de la asistencia humanitaria de emergencia en Sudán, Gaza y Yemen.</li>
+                <li><strong>Tópico B:</strong> Salvaguarda de los derechos de la infancia en entornos de conflicto asimétrico: Estrategias de prevención de la radicalización y reintegración comunitaria en el Sahel, Haití y la República Democrática del Congo.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="flip-card">
+          <div class="flip-card-inner">
+            <div class="flip-card-front">
+              <div class="committee-badge badge-primaria">Primaria</div>
+              <h3 class="committee-abbreviation">WHA</h3>
+              <h4 class="committee-name">Asamblea Mundial de la Salud</h4>
+              <p class="committee-meta">Debate académico infantil sobre nutrición, sanidad y prevención de virus.</p>
+            </div>
+            <div class="flip-card-back">
+              <h3>Tópicos Oficiales</h3>
+              <div class="divider-gold"></div>
+              <ul>
+                <li><strong>Tópico A:</strong> Modernización de la arquitectura sanitaria global: Reforma del Reglamento Sanitario Internacional, el Mecanismo PABS y la soberanía compartida sobre recursos biológicos.</li>
+                <li><strong>Tópico B:</strong> Lineamientos éticos y gobernanza internacional de la Inteligencia Artificial en la salud pública: Mitigación del sesgo algorítmico y brechas de equidad en sistemas de salud en desarrollo.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="flip-card">
+          <div class="flip-card-inner">
+            <div class="flip-card-front">
+              <div class="committee-badge badge-primaria">Primaria</div>
+              <h3 class="committee-abbreviation">UNEA</h3>
+              <h4 class="committee-name">Asamblea de la ONU sobre el Medio Ambiente</h4>
+              <p class="committee-meta">Concientización ecológica sobre conservación y calentamiento global.</p>
+            </div>
+            <div class="flip-card-back">
+              <h3>Tópicos Oficiales</h3>
+              <div class="divider-gold"></div>
+              <ul>
+                <li><strong>Tópico A:</strong> Aplicación vinculante del Convenio de Basilea sobre el control de los movimientos transfronterizos de los desechos peligrosos: Responsabilidad extendida del productor y flujos de basura electrónica.</li>
+                <li><strong>Tópico B:</strong> Directrices socioambientales para la minería de minerales críticos en la transición energética: Gestión del estrés hídrico y salvaguarda de los derechos comunales en el Triángulo del Litio.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="flip-card">
+          <div class="flip-card-inner">
+            <div class="flip-card-front">
+              <div class="committee-badge badge-double-primaria">Doble - Primaria</div>
+              <h3 class="committee-abbreviation">UNSC Primaria</h3>
+              <h4 class="committee-name">Consejo de Seguridad de las Naciones Unidas</h4>
+              <p class="committee-meta">Simulación introductoria por parejas para la preservación de la seguridad global.</p>
+            </div>
+            <div class="flip-card-back">
+              <h3>Tópicos Oficiales</h3>
+              <div class="divider-gold"></div>
+              <ul>
+                <li><strong>Tópico A:</strong> La crisis multidimensional de seguridad en el Mar Rojo: Evaluación de la validez del Artículo 51 de la Carta de las Naciones Unidas ante las tácticas asimétricas de actores no estatales.</li>
+                <li><strong>Tópico B:</strong> Análisis de la reciente restauración de sanciones al programa nuclear iraní debido a incumplimientos del Acuerdo de Viena ¿Cómo equilibrar la presión diplomática con el diálogo para evitar la proliferación nuclear en Oriente Medio?</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- CRONOGRAMA -->
+  <section id="cronograma" class="schedule-section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-subtitle">PROGRAMA ACADÉMICO</span>
+        <h2 class="section-title">Cronograma de Actividades</h2>
+        <div class="title-divider"></div>
+      </div>
+      <div class="schedule-tabs">
+        <button class="tab-btn active" onclick="openDay(event, 'day1')">
+          <i class="fa-regular fa-calendar"></i> Jueves 17/09
+        </button>
+        <button class="tab-btn" onclick="openDay(event, 'day2')">
+          <i class="fa-regular fa-calendar"></i> Viernes 18/09
+        </button>
+        <button class="tab-btn" onclick="openDay(event, 'day3')">
+          <i class="fa-regular fa-calendar"></i> Sábado 19/09
+        </button>
+      </div>
+      <!-- DÍA 1 -->
+      <div id="day1" class="schedule-content active">
+        <div class="timeline">
+          <div class="timeline-item">
+            <div class="timeline-time">8:00 – 8:50</div>
+            <div class="timeline-dot special"></div>
+            <div class="timeline-card"><h3>Inauguración</h3></div>
+          </div>
+          <div class="timeline-item">
+            <div class="timeline-time">8:50 – 9:00</div>
+            <div class="timeline-dot"></div>
+            <div class="timeline-card"><h3>Presentación en Foros</h3></div>
+          </div>
+          <div class="timeline-item">
+            <div class="timeline-time">9:00 – 9:55</div>
+            <div class="timeline-dot"></div>
+            <div class="timeline-card"><h3>Primera Sesión</h3></div>
+          </div>
+          <div class="timeline-item">
+            <div class="timeline-time">9:55 – 10:25</div>
+            <div class="timeline-dot break"></div>
+            <div class="timeline-card break-card"><h3><i class="fa-solid fa-mug-hot"></i> Refrigerio</h3></div>
+          </div>
+          <div class="timeline-item">
+            <div class="timeline-time">10:25 – 12:00</div>
+            <div class="timeline-dot"></div>
+            <div class="timeline-card"><h3>Segunda Sesión</h3></div>
+          </div>
+          <div class="timeline-item">
+            <div class="timeline-time">12:00 – 13:00</div>
+            <div class="timeline-dot break"></div>
+            <div class="timeline-card break-card"><h3><i class="fa-solid fa-utensils"></i> Almuerzo</h3></div>
+          </div>
+          <div class="timeline-item">
+            <div class="timeline-time">13:00 – 15:00</div>
+            <div class="timeline-dot"></div>
+            <div class="timeline-card"><h3>Tercera Sesión</h3></div>
+          </div>
+          <div class="timeline-item">
+            <div class="timeline-time">15:00 – 15:30</div>
+            <div class="timeline-dot break"></div>
+            <div class="timeline-card break-card"><h3><i class="fa-solid fa-cookie-bite"></i> Refrigerio</h3></div>
+          </div>
+          <div class="timeline-item">
+            <div class="timeline-time">15:30 – 17:00</div>
+            <div class="timeline-dot"></div>
+            <div class="timeline-card"><h3>Cuarta Sesión</h3></div>
+          </div>
+        </div>
+      </div>
+      <!-- DÍA 2 -->
+      <div id="day2" class="schedule-content">
+        <div class="timeline">
+          <div class="timeline-item">
+            <div class="timeline-time">8:00 – 9:55</div>
+            <div class="timeline-dot"></div>
+            <div class="timeline-card"><h3>Quinta Sesión</h3></div>
+          </div>
+          <div class="timeline-item">
+            <div class="timeline-time">9:55 – 10:25</div>
+            <div class="timeline-dot break"></div>
+            <div class="timeline-card break-card"><h3><i class="fa-solid fa-mug-hot"></i> Refrigerio</h3></div>
+          </div>
+          <div class="timeline-item">
+            <div class="timeline-time">10:25 – 12:00</div>
+            <div class="timeline-dot"></div>
+            <div class="timeline-card"><h3>Sexta Sesión</h3></div>
+          </div>
+          <div class="timeline-item">
+            <div class="timeline-time">12:00 – 14:00</div>
+            <div class="timeline-dot special"></div>
+            <div class="timeline-card"><h3><i class="fa-solid fa-masks-theater"></i> Almuerzo / Acto Cultural</h3></div>
+          </div>
+          <div class="timeline-item">
+            <div class="timeline-time">14:00 – 15:00</div>
+            <div class="timeline-dot"></div>
+            <div class="timeline-card"><h3>Séptima Sesión</h3></div>
+          </div>
+          <div class="timeline-item">
+            <div class="timeline-time">15:00 – 15:30</div>
+            <div class="timeline-dot break"></div>
+            <div class="timeline-card break-card"><h3><i class="fa-solid fa-cookie-bite"></i> Refrigerio</h3></div>
+          </div>
+          <div class="timeline-item">
+            <div class="timeline-time">15:30 – 17:00</div>
+            <div class="timeline-dot"></div>
+            <div class="timeline-card"><h3>Octava Sesión</h3></div>
+          </div>
+        </div>
+      </div>
+      <!-- DÍA 3 -->
+      <div id="day3" class="schedule-content">
+        <div class="timeline">
+          <div class="timeline-item">
+            <div class="timeline-time">8:30 – 10:00</div>
+            <div class="timeline-dot"></div>
+            <div class="timeline-card"><h3>Novena Sesión</h3></div>
+          </div>
+          <div class="timeline-item">
+            <div class="timeline-time">10:00 – 10:30</div>
+            <div class="timeline-dot break"></div>
+            <div class="timeline-card break-card"><h3><i class="fa-solid fa-mug-hot"></i> Refrigerio</h3></div>
+          </div>
+          <div class="timeline-item">
+            <div class="timeline-time">10:30 – 12:00</div>
+            <div class="timeline-dot"></div>
+            <div class="timeline-card"><h3>Décima Sesión</h3></div>
+          </div>
+          <div class="timeline-item">
+            <div class="timeline-time">12:00 – 13:00</div>
+            <div class="timeline-dot special"></div>
+            <div class="timeline-card"><h3>Clausura</h3></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- RECURSOS -->
+  <section id="recursos" class="resources-section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-subtitle">DOCUMENTACIÓN</span>
+        <h2 class="section-title">Guías y Recursos</h2>
+        <div class="title-divider"></div>
+      </div>
+      <div class="resources-grid documentation-grid">
+        <!-- Protocolo Oficial -->
+        <div class="resource-card animate-card">
+          <div class="resource-icon-wrapper">
+            <i class="fa-solid fa-file-pdf"></i>
+          </div>
+          <h3>Protocolo Oficial</h3>
+          <p>Reglamento oficial de las sesiones, votaciones y normas de comportamiento para SAMUN 2026.</p>
+          <div class="resource-actions-btn">
+            <a href="SAMUN_ProtocoloOficial_2026.pdf" target="_blank" class="btn-text"><i class="fa-solid fa-eye"></i> Abrir</a>
+            <a href="SAMUN_ProtocoloOficial_2026.pdf" download="SAMUN_ProtocoloOficial_2026.pdf" class="btn-text download-btn"><i class="fa-solid fa-download"></i> Descargar</a>
+          </div>
+        </div>
+        <!-- Ejemplo de Posición Oficial -->
+        <div class="resource-card animate-card">
+          <div class="resource-icon-wrapper">
+            <i class="fa-solid fa-file-lines"></i>
+          </div>
+          <h3>Ejemplo de Posición Oficial</h3>
+          <p>Documento de referencia para la redacción de la postura oficial de cada delegación.</p>
+          <div class="resource-actions-btn">
+            <a href="Ejemplo de Posición Oficial.pdf" target="_blank" class="btn-text"><i class="fa-solid fa-eye"></i> Abrir</a>
+            <a href="Ejemplo de Posición Oficial.pdf" download="Ejemplo de Posición Oficial.pdf" class="btn-text download-btn"><i class="fa-solid fa-download"></i> Descargar</a>
+          </div>
+        </div>
+        <!-- Protocolo CIJ -->
+        <div class="resource-card animate-card">
+          <div class="resource-icon-wrapper">
+            <i class="fa-solid fa-file-pdf"></i>
+          </div>
+          <h3>Protocolo CIJ</h3>
+          <p>Reglamento específico para el funcionamiento y dinámica de la Corte Internacional de Justicia.</p>
+          <div class="resource-actions-btn">
+            <a href="SAMUN PROTOCOLO CIJ.pdf" target="_blank" class="btn-text"><i class="fa-solid fa-eye"></i> Abrir</a>
+            <a href="SAMUN PROTOCOLO CIJ.pdf" download="SAMUN PROTOCOLO CIJ.pdf" class="btn-text download-btn"><i class="fa-solid fa-download"></i> Descargar</a>
+          </div>
+        </div>
+        <!-- Ejemplo de Resolución -->
+        <div class="resource-card animate-card">
+          <div class="resource-icon-wrapper">
+            <i class="fa-solid fa-file-pdf"></i>
+          </div>
+          <h3>Ejemplo de Resolución</h3>
+          <p>Guía práctica y formato modelo para la elaboración de los anteproyectos de resolución en los foros.</p>
+          <div class="resource-actions-btn">
+            <a href="Ejemplo de Resolución.pdf" target="_blank" class="btn-text"><i class="fa-solid fa-eye"></i> Abrir</a>
+            <a href="Ejemplo de Resolución.pdf" download="Ejemplo_de_Resolucion.pdf" class="btn-text download-btn"><i class="fa-solid fa-download"></i> Descargar</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- INSCRIPCIONES (NUEVO DISEÑO OSCURO) -->
+  <section id="inscripciones" class="register-section">
+    <div class="container">
+      <div class="register-box">
+        <h2>¿Listo para el cambio?</h2>
+        <p>Asegura tu lugar en SAMUN 2026. Selecciona tu modalidad de inscripción.</p>
+        <div class="register-buttons">
+          <a href="https://forms.gle/yCiLwwGgTZA6ML4f7" class="btn btn-register-primary btn-large">INSCRIPCIÓN DELEGADOS INTERNOS</a>
+          <a href="https://forms.gle/Dwgyiv8AjfRfqjiZ8" class="btn btn-register-primary btn-large">INSCRIPCIÓN DELEGADOS EXTERNOS</a>
+          <a href="https://forms.gle/rFdcfaXK82suXoJRA" class="btn btn-register-primary btn-large">Inscripción Logística y Pajes</a>
+          <a href="https://forms.gle/isMXACSS2oSSJkrQA" class="btn btn-register-gold btn-large">Inscripción Mesas <span class="btn-annotation">(Solo con invitación)</span></a>
+          <a href="https://forms.gle/u816ootMTEMj5Sc18" class="btn btn-register-gold btn-large">Inscripción Embajadas <span class="btn-annotation">(Solo con invitación)</span></a>
+          <a href="https://forms.gle/EgCAcmox8vQoFaxa9" class="btn btn-register-secondary btn-large">Inscripción Observadores</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- CONTACTO -->
+  <section id="contacto" class="contact-section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-subtitle">COMUNICACIÓN</span>
+        <h2 class="section-title">Contacto</h2>
+        <div class="title-divider"></div>
+      </div>
+      <div class="contact-grid">
+        <div class="contact-info">
+          <h3>Formas de contactarnos</h3>
+          <ul class="info-list">
+            <li>
+              <i class="fa-solid fa-location-dot"></i> 
+              <a href="https://maps.app.goo.gl/SbfQoLrQAz8rkp4f8" target="_blank" class="contact-link-hover">
+                Colegio San Agustín, Cochabamba (Ver mapa)
+              </a>
+            </li>
+            <li>
+              <i class="fa-solid fa-envelope"></i> 
+              <a href="mailto:samuncbba@gmail.com" class="contact-link-hover">samuncbba@gmail.com</a>
+            </li>
+          </ul>
+        </div>
+        <form class="contact-form" onsubmit="event.preventDefault(); alert('Mensaje enviado');">
+          <input type="text" placeholder="Nombre Completo" required>
+          <input type="email" placeholder="Correo Electrónico" required>
+          <textarea placeholder="Tu Mensaje" rows="5" required></textarea>
+          <button type="submit" class="btn btn-primary">Enviar</button>
+        </form>
+      </div>
+    </div>
+  </section>
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer-content">
+      <p>&copy; 2026 SAMUN - Colegio San Agustín.</p>
+      <div class="social-links">
+        <a href="https://www.instagram.com/samun_cbba?igsh=dGdvOXN6cWdjYmM0" target="_blank">
+          <i class="fa-brands fa-instagram"></i>
+        </a>
+      </div>
+    </div>
+  </footer>
+  <script>
+    // Carrusel de Secretarios
+    const track = document.getElementById('carouselTrack');
+    const nextBtn = document.getElementById('nextBtn');
+    const prevBtn = document.getElementById('prevBtn');
+    let scrollAmount = 0;
+    const cardWidth = 270;
+    nextBtn.addEventListener('click', () => {
+      const maxScroll = track.scrollWidth - track.clientWidth;
+      if (scrollAmount < maxScroll) {
+        scrollAmount += cardWidth;
+        track.scrollTo({ left: scrollAmount, behavior: 'smooth' });
+      }
+    });
+    prevBtn.addEventListener('click', () => {
+      if (scrollAmount > 0) {
+        scrollAmount -= cardWidth;
+        track.scrollTo({ left: scrollAmount, behavior: 'smooth' });
+      }
+    });
+    // Control de Pestañas del Cronograma
+    function openDay(evt, dayId) {
+      const contents = document.getElementsByClassName("schedule-content");
+      for (let i = 0; i < contents.length; i++) {
+        contents[i].classList.remove("active");
+      }
+      
+      const tabBtns = document.getElementsByClassName("tab-btn");
+      for (let i = 0; i < tabBtns.length; i++) {
+        tabBtns[i].classList.remove("active");
+      }
+      
+      document.getElementById(dayId).classList.add("active");
+      evt.currentTarget.classList.add("active");
+    }
+  </script>
+</body>
+</html>
