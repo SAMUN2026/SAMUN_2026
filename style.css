@@ -833,3 +833,28 @@ h1, h2, .logo-text, .category-title {
   .nav-logo-img { height: 35px; }
   .logo-text { font-size: 1.1rem; }
 }
+/* ==========================================
+   ESTILOS PARA DESPLEGABLE DE DELEGADOS
+   ========================================== */
+.delegados-dropdown summary {
+    list-style: none; /* Oculta la flecha por defecto de HTML */
+    cursor: pointer;
+    text-align: center;
+}
+
+.delegados-dropdown summary::-webkit-details-marker {
+    display: none; /* Oculta la flecha en Chrome/Safari */
+}
+
+.sub-buttons {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+    justify-content: center;
+    flex-wrap: wrap; /* Para que se adapte bien en celulares */
+}
+
+.btn-sub {
+    font-size: 0.9em;
+    padding: 8px 15px;
+}
